@@ -14,7 +14,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-const SECRET = "우리나무1234";
+const SECRET = "1107";
 
 function Tree({ growth }) {
   const g = Math.max(0, Math.min(1, growth));
